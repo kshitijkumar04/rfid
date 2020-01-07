@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 public abstract class test_11 {
 
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub	
+			
 		System.out.println("Place your card to Read");
 		Process p = Runtime.getRuntime().exec("python Read.py");
 		
